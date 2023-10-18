@@ -70,13 +70,7 @@ $products_item = '<ul class="products">';
     <div class="product-info">
     Price {$row['sell_price']} 
     <fieldset>
-    <label>
-        <span>Color</span>
-        <select name="product_color">
-        <option value="Black">Black</option>
-        <option value="Silver">Silver</option>
-        </select>
-    </label>
+    
     <label>
         <span>Quantity</span>
         <input type="text" size="2" maxlength="2" name="item_qty" value="1" />
