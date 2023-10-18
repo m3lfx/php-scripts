@@ -29,7 +29,7 @@ if(isset($_SESSION["cart_products"]) && count($_SESSION["cart_products"]) > 0) {
         $product_name = $cart_itm["item_name"];
         $product_qty = $cart_itm["item_qty"];
         $product_price = $cart_itm["item_price"];
-        $product_color = $cart_itm["product_color"];
+        
         $product_code = $cart_itm["item_id"];
         $bg_color = ($b++%2==1) ? 'odd' : 'even'; //zebra stripe
         echo '<tr class="'.$bg_color.'">';
